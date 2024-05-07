@@ -31,7 +31,7 @@ class PaystackTransfers < PaystackBaseObject
 	end
 
 	def  confirmDisableOtp(data={})
-		return PaystackTransfers.confirmDisableOTP(@paystack,otp)
+		return PaystackTransfers.confirmDisableOTP(@paystack,data)
 	end
 
 	def  enableOtp
